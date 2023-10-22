@@ -1,0 +1,12 @@
+body {
+    font: normal 14pt courier;
+    color: antiquewhite;
+    background-color: rgb(28, 34, 70);    
+}
+
+button {
+    padding: 30px 30px;
+    font: bold 15pt courier;
+    color: rgb(24, 24, 64);
+    border-radius: 10px;
+}
