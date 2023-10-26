@@ -12,10 +12,10 @@ function clicou(){
 
     titulo.innerHTML = (`A distância de ${metro} metros, corresponde a...`);
     detalhe.innerHTML = 
-    (`${km} quilômetros (km)<br>
-    ${hm} hectômetros (hm)<br>
-    ${dam} decâmetros (dam)<br>
-    ${dm} decímetros (dm)<br>
-    ${cm} centímetros (cm)<br>
-    ${mm} milímetros (mm)`);
+    (`${km.toLocaleString('pt-BR')} quilômetros (km)<br>
+    ${hm.toLocaleString('pt-BR')} hectômetros (hm)<br>
+    ${dam.toLocaleString('pt-BR')} decâmetros (dam)<br>
+    ${dm.toLocaleString('pt-BR')} decímetros (dm)<br>
+    ${cm.toLocaleString('pt-BR')} centímetros (cm)<br>
+    ${mm.toLocaleString('pt-BR')} milímetros (mm)`);
 }

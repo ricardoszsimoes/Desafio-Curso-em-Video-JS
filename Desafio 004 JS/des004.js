@@ -1,11 +1,15 @@
+function formatarMoeda(real) {
+    return 'R$' + real.toFixed(2).replace('.', ',');
+}
+
 function clicou() {
     var produto = window.prompt('Que produto você está comprando?');
-    var valor = window.prompt(`Quanto custa ${produto} que você está comprando?`);
-    var pago = window.prompt(`Qual foi o valor que você deu para pagar ${produto}?`);
+    var valor = parseFloat(window.prompt(`Quanto custa ${produto} que você está comprando?`));
+    var pago = parseFloat(window.prompt(`Qual foi o valor que você deu para pagar ${produto}?`));
 
     var troco = pago - valor;
 
-    window.alert(`Você comprou ${produto} que custou R$${valor},00.
-Deu R$${pago},00 em dinheiro e vai receber R$${troco},00 de troco.
+    window.alert(`Você comprou ${produto} que custou ${formatarMoeda(valor)}.
+Deu ${formatarMoeda(pago)} em dinheiro e vai receber ${formatarMoeda(troco)} de troco.
 Volte sempre!`)
 }
