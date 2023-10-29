@@ -1,9 +1,9 @@
 function formatarReal(real){
     return 'R$' + real.toFixed(2).replace('.', ',');
-}
+} //Essa função vai converter os números para o formato "real".
 function formatarDolar(dolar){
     return '$' + dolar.toFixed(2).replace('.', ',');
-}
+} //Essa função vai converter os números para o formato "dólar".
 
 var cota = parseFloat(prompt('Qual a cotação do dólar atualmente?'));
 
