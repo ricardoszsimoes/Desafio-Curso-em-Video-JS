@@ -16,6 +16,10 @@ button {
     border-radius: 5px;
 }
 
+div {
+    padding: 20px;
+}
+
 #estilo {
-    font: bold 20pt courier; 
+    font: bold 20pt courier;
 }
