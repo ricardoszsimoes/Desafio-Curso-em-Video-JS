@@ -1,0 +1,24 @@
+body {
+    font: normal 14pt courier;
+    color: #ECECEC;
+    background-color: #2C2C54; 
+    display: flex;   
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+button {
+    padding: 20px 80px;
+    font: bold 15pt courier;
+    color: #2C2C54;
+    border-radius: 5px;
+}
+
+div {
+    font-weight: bold;
+    display: flex;   
+    flex-direction: column;    
+    align-items: center;
+    padding: 30px;
+}
